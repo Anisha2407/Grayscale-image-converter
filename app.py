@@ -1,4 +1,4 @@
-from flask import Flask, request, jsonify           #impost necessary modules from flask to create web app and handle request
+from flask import Flask, request, jsonify           #import necessary modules from flask to create web app and handle request
 from PIL import Image           #import os to interact with os
 import os           #import pillow lib to process and manipulate images
 
@@ -8,7 +8,7 @@ UPLOAD_FOLDER = "./uploads"         #set the folderwhere updated files will be s
 if not os.path.exists(UPLOAD_FOLDER):           #check if the folder exists
     os.makedirs(UPLOAD_FOLDER)          #create if it doesn't
 
-@app.route('/upload', methods=['POST'])         #defint a route for handling file uploads, acccepting onlt post requests
+@app.route('/upload', methods=['POST'])         #define a route for handling file uploads, acccepting onlt post requests
 
 def upload_files():         #func to process uploaded files
     if 'image' not in request.files:            #check if the 'image' exists in the request
