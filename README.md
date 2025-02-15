@@ -16,7 +16,7 @@ This project was built as a part of my learning journey in backend development a
 - Working with Python libraries like Flask for API creation
 - Grayscale image conversion using Pillow
 - Learning project structuring and virtual environments
-- Future integration with Docker for deployment
+- Integration with Docker for deployment
   
 ---
 
@@ -27,7 +27,7 @@ This project was built as a part of my learning journey in backend development a
   - Pillow (for image processing)
 - **Environment Management:** Virtual environment (`venv`)
 - **Version Control:** Git and GitHub
-- **Deployment (planned):** Docker
+- **Deployment using:** Docker
 
 ---
 
@@ -40,7 +40,7 @@ To run the project locally, follow these steps:
 ### Create and Activate Virtual Environment
 For Windows<br/>
 `python -m venv venv`<br/>
-`venv\Scripts\activate`<br/>
+`venv\Scripts\Activate`<br/>
 ### Install Dependencies
 `pip install -r requirements.txt`
 ### Run the application
@@ -49,9 +49,13 @@ For Windows<br/>
 
 ---
 
-## Future Enhancements
- - Add RESTful API endpoint using Flask
+## Key Learnings
+ - Use postman api for input and output processing using Flask
  - Dockerize the application for easy deployment
+
+---
+
+## Future Enhancement
  - Build a frontend interface for user interaction
 
  ---
